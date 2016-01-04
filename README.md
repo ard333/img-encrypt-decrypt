@@ -1,5 +1,5 @@
 # ImgEncryptDecrypt
-Image Encryption Using Arnold Cat Map, Logistic Map, and Selective Technique to MSB
+Image Encryption Using Arnold Cat Map, Logistic Map, and Selective Technique
 
 ##### Library Requirement
 [WebLaF Java Swing Look and Feel library 1.28](https://github.com/mgarin/weblaf/releases/download/v1.28/weblaf-complete-1.28.jar)
