@@ -1,13 +1,13 @@
 /*
  * Ardiansyah | http://ard.web.id
  */
-package imgencryptdecrypt;
+package id.web.ard.imgencryptdecrypt;
 
 import com.alee.laf.WebLookAndFeel;
-import imgencryptdecrypt.controllers.MainController;
-import imgencryptdecrypt.views.ImagePanel;
-import imgencryptdecrypt.views.MainWindow;
-import imgencryptdecrypt.views.OperationPanel;
+import id.web.ard.imgencryptdecrypt.controllers.MainController;
+import id.web.ard.imgencryptdecrypt.views.ImagePanel;
+import id.web.ard.imgencryptdecrypt.views.MainWindow;
+import id.web.ard.imgencryptdecrypt.views.OperationPanel;
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.io.IOException;
@@ -20,7 +20,7 @@ import javax.swing.UnsupportedLookAndFeelException;
 
 /**
  *
- * @author ardiansyah
+ * @author Ardiansyah <ard333.ardiansyah@gmail.com>
  */
 public class ImgEncryptDecrypt {
 	

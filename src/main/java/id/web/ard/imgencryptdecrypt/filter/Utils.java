@@ -1,13 +1,13 @@
 /*
  * Ardiansyah | http://ard.web.id
  */
-package imgencryptdecrypt.filter;
+package id.web.ard.imgencryptdecrypt.filter;
 
 import java.io.File;
 
 /**
  *
- * @author ardiansyah
+ * @author Ardiansyah <ard333.ardiansyah@gmail.com>
  */
 public class Utils{
 	public final static String png = "png";

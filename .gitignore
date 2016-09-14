@@ -3,3 +3,4 @@
 manifest.mf
 build.xml
 *.jar
+/target/

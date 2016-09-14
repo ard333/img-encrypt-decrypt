@@ -1,14 +1,14 @@
 /*
  * Ardiansyah | http://ard.web.id
  */
-package imgencryptdecrypt.filter;
+package id.web.ard.imgencryptdecrypt.filter;
 
 import java.io.File;
 import javax.swing.filechooser.FileFilter;
 
 /**
  *
- * @author ardiansyah
+ * @author Ardiansyah <ard333.ardiansyah@gmail.com>
  */
 public class ImageFilter extends FileFilter{
 	@Override

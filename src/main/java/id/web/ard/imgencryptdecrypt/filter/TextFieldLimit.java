@@ -1,7 +1,7 @@
 /*
  * Ardiansyah | http://ard.web.id
  */
-package imgencryptdecrypt.filter;
+package id.web.ard.imgencryptdecrypt.filter;
 
 import javax.swing.text.AttributeSet;
 import javax.swing.text.BadLocationException;
@@ -9,7 +9,7 @@ import javax.swing.text.PlainDocument;
 
 /**
  *
- * @author ardiansyah
+ * @author Ardiansyah <ard333.ardiansyah@gmail.com>
  */
 public class TextFieldLimit extends PlainDocument{
 	private final int limit;

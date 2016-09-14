@@ -1,14 +1,14 @@
 /*
  * Ardiansyah | http://ard.web.id
  */
-package imgencryptdecrypt.views;
+package id.web.ard.imgencryptdecrypt.views;
 
 /**
  *
- * @author ardiansyah
+ * @author Ardiansyah <ard333.ardiansyah@gmail.com>
  */
 import com.alee.laf.text.WebTextField;
-import imgencryptdecrypt.filter.TextFieldLimit;
+import id.web.ard.imgencryptdecrypt.filter.TextFieldLimit;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.FlowLayout;

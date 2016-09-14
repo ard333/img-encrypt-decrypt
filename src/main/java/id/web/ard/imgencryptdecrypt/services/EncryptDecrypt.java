@@ -1,14 +1,14 @@
 /*
  * Ardiansyah | http://ard.web.id
  */
-package imgencryptdecrypt.services;
+package id.web.ard.imgencryptdecrypt.services;
 
 import java.awt.Color;
 import java.util.Arrays;
 
 /**
  *
- * @author ardiansyah
+ * @author Ardiansyah <ard333.ardiansyah@gmail.com>
  */
 public class EncryptDecrypt {
 	

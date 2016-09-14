@@ -1,11 +1,11 @@
 /*
  * Ardiansyah | http://ard.web.id
  */
-package imgencryptdecrypt.views;
+package id.web.ard.imgencryptdecrypt.views;
 
 /**
  *
- * @author ardiansyah
+ * @author Ardiansyah <ard333.ardiansyah@gmail.com>
  */
 import java.awt.BorderLayout;
 import java.awt.image.BufferedImage;

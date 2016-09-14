@@ -1,21 +1,21 @@
 /*
  * Ardiansyah | http://ard.web.id
  */
-package imgencryptdecrypt.controllers;
+package id.web.ard.imgencryptdecrypt.controllers;
 
 import com.alee.managers.notification.NotificationIcon;
 import com.alee.managers.notification.NotificationManager;
 import com.alee.managers.notification.WebNotificationPopup;
-import imgencryptdecrypt.ImgEncryptDecrypt;
-import imgencryptdecrypt.services.EncryptDecrypt;
-import imgencryptdecrypt.services.ImageChooser;
-import imgencryptdecrypt.services.NameParser;
-import imgencryptdecrypt.services.ReconstructImage;
-import imgencryptdecrypt.views.ImagePanel;
-import imgencryptdecrypt.views.MainWindow;
-import imgencryptdecrypt.views.OperationPanel;
-import imgencryptdecrypt.views.InputNameDialog;
-import imgencryptdecrypt.views.ProgressDialog;
+import id.web.ard.imgencryptdecrypt.ImgEncryptDecrypt;
+import id.web.ard.imgencryptdecrypt.services.EncryptDecrypt;
+import id.web.ard.imgencryptdecrypt.services.ImageChooser;
+import id.web.ard.imgencryptdecrypt.services.NameParser;
+import id.web.ard.imgencryptdecrypt.services.ReconstructImage;
+import id.web.ard.imgencryptdecrypt.views.ImagePanel;
+import id.web.ard.imgencryptdecrypt.views.MainWindow;
+import id.web.ard.imgencryptdecrypt.views.OperationPanel;
+import id.web.ard.imgencryptdecrypt.views.InputNameDialog;
+import id.web.ard.imgencryptdecrypt.views.ProgressDialog;
 import java.awt.event.ActionEvent;
 import java.awt.image.BufferedImage;
 import java.io.BufferedInputStream;
@@ -34,7 +34,7 @@ import javax.swing.JLabel;
 
 /**
  *
- * @author ardiansyah
+ * @author Ardiansyah <ard333.ardiansyah@gmail.com>
  */
 public class MainController {
 	

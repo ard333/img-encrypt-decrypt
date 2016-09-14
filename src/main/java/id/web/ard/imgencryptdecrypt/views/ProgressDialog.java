@@ -1,11 +1,11 @@
 /*
  * Ardiansyah | http://ard.web.id
  */
-package imgencryptdecrypt.views;
+package id.web.ard.imgencryptdecrypt.views;
 
 /**
  *
- * @author ardiansyah
+ * @author Ardiansyah <ard333.ardiansyah@gmail.com>
  */
 import com.alee.laf.panel.WebPanel;
 import com.alee.laf.progressbar.WebProgressBar;
