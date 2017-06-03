@@ -6,7 +6,7 @@ package id.web.ard.imgencryptdecrypt.controllers;
 import com.alee.managers.notification.NotificationIcon;
 import com.alee.managers.notification.NotificationManager;
 import com.alee.managers.notification.WebNotificationPopup;
-import id.web.ard.imgencryptdecrypt.ImgEncryptDecrypt;
+import id.web.ard.imgencryptdecrypt.Main;
 import id.web.ard.imgencryptdecrypt.services.EncryptDecrypt;
 import id.web.ard.imgencryptdecrypt.services.ImageChooser;
 import id.web.ard.imgencryptdecrypt.services.NameParser;
@@ -108,7 +108,7 @@ public class MainController {
 				}
 				nameParser = new NameParser(this.imageName.substring(0, this.imageName.length()-4));
 			} catch (IOException ex) {
-				Logger.getLogger(ImgEncryptDecrypt.class.getName()).log(Level.SEVERE, null, ex);
+				Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
 			}
 		}
 	}

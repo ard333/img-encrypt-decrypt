@@ -22,13 +22,13 @@ import javax.swing.UnsupportedLookAndFeelException;
  *
  * @author Ardiansyah <ard333.ardiansyah@gmail.com>
  */
-public class ImgEncryptDecrypt {
+public class Main {
 	
 	public static void main(String[] args) throws IOException {
 		try{
 			UIManager.setLookAndFeel(WebLookAndFeel.class.getCanonicalName());
 		} catch (UnsupportedLookAndFeelException | ClassNotFoundException | InstantiationException | IllegalAccessException ex) {
-			Logger.getLogger(ImgEncryptDecrypt.class.getName()).log(Level.SEVERE, null, ex);
+			Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
 		}
 		MainWindow mainWindow = new MainWindow();
 		
