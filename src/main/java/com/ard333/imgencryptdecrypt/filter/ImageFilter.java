@@ -1,7 +1,4 @@
-/*
- * Ardiansyah | http://ard.web.id
- */
-package id.web.ard.imgencryptdecrypt.filter;
+package com.ard333.imgencryptdecrypt.filter;
 
 import java.io.File;
 import javax.swing.filechooser.FileFilter;

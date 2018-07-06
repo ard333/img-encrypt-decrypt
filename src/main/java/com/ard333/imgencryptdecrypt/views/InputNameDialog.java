@@ -1,14 +1,11 @@
-/*
- * Ardiansyah | http://ard.web.id
- */
-package id.web.ard.imgencryptdecrypt.views;
+package com.ard333.imgencryptdecrypt.views;
 
 /**
  *
  * @author Ardiansyah <ard333.ardiansyah@gmail.com>
  */
 import com.alee.laf.text.WebTextField;
-import id.web.ard.imgencryptdecrypt.filter.TextFieldLimit;
+import com.ard333.imgencryptdecrypt.filter.TextFieldLimit;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
@@ -22,8 +19,8 @@ import javax.swing.JTextField;
 
 public class InputNameDialog extends JDialog{
 	
-	public JButton okButton = new JButton("Save");
-	public WebTextField nameField = new WebTextField();
+	private JButton okButton = new JButton("Save");
+	private WebTextField nameField = new WebTextField();
 	
 	public InputNameDialog(MainWindow mainWindow, String additionalName) {
 		super(mainWindow, "Input Name", true);
@@ -54,5 +51,14 @@ public class InputNameDialog extends JDialog{
 		add(topPanel, BorderLayout.CENTER);
 		add(bottomPanel, BorderLayout.SOUTH);
 	}
+
+	public JButton getOkButton() {
+		return okButton;
+	}
+
+	public WebTextField getNameField() {
+		return nameField;
+	}
+	
 	
 }

@@ -1,7 +1,4 @@
-/*
- * Ardiansyah | http://ard.web.id
- */
-package id.web.ard.imgencryptdecrypt.views;
+package com.ard333.imgencryptdecrypt.views;
 
 /**
  *

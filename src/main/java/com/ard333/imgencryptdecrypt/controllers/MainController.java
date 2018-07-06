@@ -1,21 +1,18 @@
-/*
- * Ardiansyah | http://ard.web.id
- */
-package id.web.ard.imgencryptdecrypt.controllers;
+package com.ard333.imgencryptdecrypt.controllers;
 
 import com.alee.managers.notification.NotificationIcon;
 import com.alee.managers.notification.NotificationManager;
 import com.alee.managers.notification.WebNotificationPopup;
-import id.web.ard.imgencryptdecrypt.Main;
-import id.web.ard.imgencryptdecrypt.services.EncryptDecrypt;
-import id.web.ard.imgencryptdecrypt.services.ImageChooser;
-import id.web.ard.imgencryptdecrypt.services.NameParser;
-import id.web.ard.imgencryptdecrypt.services.ReconstructImage;
-import id.web.ard.imgencryptdecrypt.views.ImagePanel;
-import id.web.ard.imgencryptdecrypt.views.MainWindow;
-import id.web.ard.imgencryptdecrypt.views.OperationPanel;
-import id.web.ard.imgencryptdecrypt.views.InputNameDialog;
-import id.web.ard.imgencryptdecrypt.views.ProgressDialog;
+import com.ard333.imgencryptdecrypt.Main;
+import com.ard333.imgencryptdecrypt.services.EncryptDecrypt;
+import com.ard333.imgencryptdecrypt.services.ImageChooser;
+import com.ard333.imgencryptdecrypt.services.NameParser;
+import com.ard333.imgencryptdecrypt.services.ReconstructImage;
+import com.ard333.imgencryptdecrypt.views.ImagePanel;
+import com.ard333.imgencryptdecrypt.views.MainWindow;
+import com.ard333.imgencryptdecrypt.views.OperationPanel;
+import com.ard333.imgencryptdecrypt.views.InputNameDialog;
+import com.ard333.imgencryptdecrypt.views.ProgressDialog;
 import java.awt.event.ActionEvent;
 import java.awt.image.BufferedImage;
 import java.io.BufferedInputStream;
@@ -58,13 +55,13 @@ public class MainController {
 		this.resultImagePanel = resultImagePanel;
 		notificationPopup.setDisplayTime(3000);
 		
-		operationPanel.browseButton.addActionListener((ActionEvent e) -> {
+		operationPanel.getBrowseButton().addActionListener((ActionEvent e) -> {
 			this.chooseImage();
 		});
-		operationPanel.encryptButton.addActionListener((ActionEvent e) -> {
+		operationPanel.getEncryptButton().addActionListener((ActionEvent e) -> {
 			this.Do("encrypt");
 		});
-		operationPanel.decryptButton.addActionListener((ActionEvent e) -> {
+		operationPanel.getDecryptButton().addActionListener((ActionEvent e) -> {
 			this.Do("decrypt");
 		});
 	}
@@ -139,9 +136,9 @@ public class MainController {
 			InputNameDialog inputNameDialog = new InputNameDialog(this.mainWindow, additionalName);
 			final String tempName = additionalName;
 			//==================================================================
-			inputNameDialog.okButton.addActionListener((ActionEvent e)->{
+			inputNameDialog.getOkButton().addActionListener((ActionEvent e)->{
 				String newAdditionalName = tempName;
-				String fileName = inputNameDialog.nameField.getText();
+				String fileName = inputNameDialog.getNameField().getText();
 				Boolean validInput = true;
 				if (!fileName.matches(SnBSPattern) && !fileName.equals("")) {
 					

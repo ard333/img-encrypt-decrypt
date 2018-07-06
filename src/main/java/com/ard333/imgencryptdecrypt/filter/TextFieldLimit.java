@@ -1,7 +1,4 @@
-/*
- * Ardiansyah | http://ard.web.id
- */
-package id.web.ard.imgencryptdecrypt.filter;
+package com.ard333.imgencryptdecrypt.filter;
 
 import javax.swing.text.AttributeSet;
 import javax.swing.text.BadLocationException;

@@ -1,7 +1,4 @@
-/*
- * Ardiansyah | http://ard.web.id
- */
-package id.web.ard.imgencryptdecrypt.services;
+package com.ard333.imgencryptdecrypt.services;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
